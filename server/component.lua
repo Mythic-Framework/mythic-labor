@@ -29,6 +29,7 @@ function RetrieveComponents()
 	Pwnzor = exports["mythic-base"]:FetchComponent("Pwnzor")
 	Crafting = exports["mythic-base"]:FetchComponent("Crafting")
 	Vendor = exports["mythic-base"]:FetchComponent("Vendor")
+	Version = exports["mythic-base"]:FetchComponent("Version")
 end
 
 AddEventHandler("Core:Shared:Ready", function()
@@ -61,6 +62,7 @@ AddEventHandler("Core:Shared:Ready", function()
 		"Pwnzor",
 		"Crafting",
 		"Vendor",
+		"Version",
 	}, function(error)
 		if #error > 0 then
 			Logger:Critical("Labor", "Failed To Load All Dependencies")
@@ -70,6 +72,8 @@ AddEventHandler("Core:Shared:Ready", function()
 		RegisterCallbacks()
 		RegisterMiddleware()
 		TriggerEvent("Labor:Server:Startup")
+
+		Version:Check('Mythic-Framework/Mythic-VersionCheckers', GetCurrentResourceName())
 	end)
 end)
 
