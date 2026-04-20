@@ -7,9 +7,9 @@ local _blipArea = nil
 local _l = nil
 local _v = nil
 local _entered = nil
-local _psychoShit = nil
+local _buyerData = nil
 local _inPoly = false
-local _fuckedOff = false
+local _buyerDeparted = false
 
 local _queueLoc = nil
 RegisterNetEvent("Labor:Client:GetLocs", function(locs)
@@ -98,11 +98,11 @@ AddEventHandler("Labor:Client:Setup", function()
                     arrived = true
     
                     Wait(25000)
-                    if forceEnd or _psychoShit ~= nil and _psychoShit.veh == VehToNet(vehicle) and not _fuckedOff then
-                        _fuckedOff = true
-                        TaskVehicleDriveWander(NetToPed(_psychoShit.ped), NetToVeh(_psychoShit.veh), 20.0, 786603)
+                    if forceEnd or _buyerData ~= nil and _buyerData.veh == VehToNet(vehicle) and not _buyerDeparted then
+                        _buyerDeparted = true
+                        TaskVehicleDriveWander(NetToPed(_buyerData.ped), NetToVeh(_buyerData.veh), 20.0, 786603)
                         SetTimeout(30000, function()
-                            Callbacks:ServerCallback("OxyRun:DeleteShit", _psychoShit)
+                            Callbacks:ServerCallback("OxyRun:RemoveData", _buyerData)
                         end)
                     end
                 end)
@@ -134,7 +134,7 @@ RegisterNetEvent("OxyRun:Client:OnDuty", function(joiner, time)
 	_joiner = joiner
     LocalPlayer.state.oxyJoiner = joiner
     _working = true
-    _fuckedOff = false
+    _buyerDeparted = false
 
     eventHandlers["primary_action"] = AddEventHandler("Keybinds:Client:KeyUp:primary_action", function()
         if _working and _state == 3 and LocalPlayer.state.inOxyPickup and not LocalPlayer.state.doingAction then
@@ -286,8 +286,8 @@ RegisterNetEvent("OxyRun:Client:OnDuty", function(joiner, time)
 
 	eventHandlers["spawned"] = RegisterNetEvent(string.format("OxyRun:Client:%s:Spawn", joiner), function(data)
         LocalPlayer.state.oxyBuyer = data
-        _fuckedOff = false
-        _psychoShit = data
+        _buyerDeparted = false
+        _buyerData = data
 	end)
 
 	eventHandlers["action"] = RegisterNetEvent(string.format("OxyRun:Client:%s:Action", joiner), function()
@@ -301,7 +301,7 @@ RegisterNetEvent("OxyRun:Client:OnDuty", function(joiner, time)
         end
 
         local c = deepcopy(LocalPlayer.state.oxyBuyer)
-        Callbacks:ServerCallback("OxyRun:SellProduct", _psychoShit.veh, function(s)
+        Callbacks:ServerCallback("OxyRun:SellProduct", _buyerData.veh, function(s)
             if (s) then
                 loadAnimDict( "mp_safehouselost@" )
                 TaskPlayAnim( LocalPlayer.state.ped, "mp_safehouselost@", "package_dropoff", 8.0, 1.0, -1, 16, 0, 0, 0, 0 )  
@@ -309,11 +309,11 @@ RegisterNetEvent("OxyRun:Client:OnDuty", function(joiner, time)
 
             Wait(8000)
 
-            _fuckedOff = true
-            TaskVehicleDriveWander(NetToPed(_psychoShit.ped), NetToVeh(_psychoShit.veh), 20.0, 786603)
+            _buyerDeparted = true
+            TaskVehicleDriveWander(NetToPed(_buyerData.ped), NetToVeh(_buyerData.veh), 20.0, 786603)
             local wait = math.random(30, 100) * 1000
             SetTimeout(wait, function()
-                Callbacks:ServerCallback("OxyRun:DeleteShit", _psychoShit)
+                Callbacks:ServerCallback("OxyRun:RemoveData", _buyerData)
             end)
         end)
 	end)
@@ -376,7 +376,7 @@ RegisterNetEvent("OxyRun:Client:OffDuty", function(time)
     _l = nil
     _v = nil
     _entered = nil
-    _psychoShit = nil
+    _buyerData = nil
     _inPoly = false
-    _fuckedOff = false
+    _buyerDeparted = false
 end)

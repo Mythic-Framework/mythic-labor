@@ -357,7 +357,7 @@ AddEventHandler("Labor:Server:Startup", function()
 		end
 	end)
 
-	Callbacks:RegisterServerCallback("OxyRun:DeleteShit", function(source, data, cb)
+	Callbacks:RegisterServerCallback("OxyRun:RemoveData", function(source, data, cb)
 		if _joiners[source] and _sellers[_joiners[source]].pending ~= nil then
 			_sellers[_joiners[source]].cars[_sellers[_joiners[source]].pending.veh] = false
 			DeleteEntity(NetworkGetEntityFromNetworkId(_sellers[_joiners[source]].pending.ped))

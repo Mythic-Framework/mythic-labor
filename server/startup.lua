@@ -56,7 +56,7 @@ AddEventHandler("Labor:Server:Startup", function()
 		false,
 		{
 			Duration = 60 * 20,
-			Message = "You took too damn long, maybe next time",
+			Message = "Time\'s up! try again next time.",
 		}
 	)
 	Labor.Jobs:Register(

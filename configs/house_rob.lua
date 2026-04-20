@@ -999,7 +999,6 @@ HouseRobberyInteriors = {
                     width = 0.6,
                     options = {
                         heading = 310,
-                        --debugPoly=true,
                         minZ = 57.64,
                         maxZ = 58.64
                     }
@@ -1011,7 +1010,6 @@ HouseRobberyInteriors = {
                     width = 0.4,
                     options = {
                         heading = 310,
-                        --debugPoly=true,
                         minZ = 58.06,
                         maxZ = 58.86
                     }
@@ -1023,7 +1021,6 @@ HouseRobberyInteriors = {
                     width = 1.4,
                     options = {
                         heading = 40,
-                        --debugPoly=true,
                         minZ = 57.44,
                         maxZ = 59.84
                     }
@@ -1035,7 +1032,6 @@ HouseRobberyInteriors = {
                     width = 2.0,
                     options = {
                         heading = 40,
-                        --debugPoly=true,
                         minZ = 57.64,
                         maxZ = 58.84
                     }
@@ -1047,7 +1043,6 @@ HouseRobberyInteriors = {
                     width = 2.0,
                     options = {
                         heading = 310,
-                        --debugPoly=true,
                         minZ = 57.64,
                         maxZ = 59.24
                     }
@@ -1059,7 +1054,6 @@ HouseRobberyInteriors = {
                     width = 1.2,
                     options = {
                         heading = 310,
-                        --debugPoly=true,
                         minZ = 57.64,
                         maxZ = 59.84
                     }
@@ -1071,7 +1065,6 @@ HouseRobberyInteriors = {
                     width = 1.0,
                     options = {
                         heading = 310,
-                        --debugPoly=true,
                         minZ = 57.44,
                         maxZ = 58.44
                     }
@@ -1135,7 +1128,6 @@ HouseRobberyInteriors = {
                     width = 0.6,
                     options = {
                         heading = 310,
-                        --debugPoly=true,
                         minZ = 57.02,
                         maxZ = 59.82
                     }
@@ -1147,19 +1139,17 @@ HouseRobberyInteriors = {
                     width = 0.8,
                     options = {
                         heading = 222,
-                        --debugPoly=true,
                         minZ = 57.04,
                         maxZ = 58.44
                     }
                 },
-                { -- Hallway Shit
+                { -- Hallway Area
                     type = "standard",
                     coords = vector3(980.03, -718.84, 58.02),
                     length = 2.8,
                     width = 0.8,
                     options = {
                         heading = 132,
-                        --debugPoly=true,
                         minZ = 57.02,
                         maxZ = 59.62
                     }
@@ -1171,7 +1161,6 @@ HouseRobberyInteriors = {
                     width = 1.0,
                     options = {
                         heading = 310,
-                        --debugPoly=true,
                         minZ = 57.83,
                         maxZ = 58.63
                     }
@@ -1183,7 +1172,6 @@ HouseRobberyInteriors = {
                     width = 1.0,
                     options = {
                         heading = 42,
-                        --debugPoly=true,
                         minZ = 57.02,
                         maxZ = 58.62
                     }
@@ -1195,7 +1183,6 @@ HouseRobberyInteriors = {
                     width = 1.2,
                     options = {
                         heading = 312,
-                        --debugPoly=true,
                         minZ = 57.02,
                         maxZ = 58.42
                     }
@@ -1207,7 +1194,6 @@ HouseRobberyInteriors = {
                     width = 1.2,
                     options = {
                         heading = 312,
-                        --debugPoly=true,
                         minZ = 57.02,
                         maxZ = 58.62
                     }
@@ -1219,7 +1205,6 @@ HouseRobberyInteriors = {
                     width = 1.0,
                     options = {
                         heading = 312,
-                        --debugPoly=true,
                         minZ = 57.02,
                         maxZ = 58.62
                     }
@@ -1231,7 +1216,6 @@ HouseRobberyInteriors = {
                     width = 1.0,
                     options = {
                         heading = 312,
-                        --debugPoly=true,
                         minZ = 57.06,
                         maxZ = 58.46
                     }
@@ -1302,7 +1286,6 @@ HouseRobberyInteriors = {
                     width = 2.6,
                     options = {
                         heading = 291,
-                        --debugPoly=true,
                         minZ = 71.61,
                         maxZ = 73.81
                     }
@@ -1314,7 +1297,6 @@ HouseRobberyInteriors = {
                     width = 2.6,
                     options = {
                         heading = 201,
-                        --debugPoly=true,
                         minZ = 71.15,
                         maxZ = 73.35
                     }
@@ -1326,7 +1308,6 @@ HouseRobberyInteriors = {
                     width = 5.6,
                     options = {
                         heading = 111,
-                        --debugPoly=true,
                         minZ = 71.84,
                         maxZ = 74.84
                     }
@@ -1338,7 +1319,6 @@ HouseRobberyInteriors = {
                     width = 2.4,
                     options = {
                         heading = 111,
-                        --debugPoly=true,
                         minZ = 75.75,
                         maxZ = 76.95
                     }
@@ -1350,7 +1330,6 @@ HouseRobberyInteriors = {
                     width = 2.4,
                     options = {
                         heading = 111,
-                        --debugPoly=true,
                         minZ = 75.74,
                         maxZ = 76.94
                     }
@@ -1362,7 +1341,6 @@ HouseRobberyInteriors = {
                     width = 2.4,
                     options = {
                         heading = 111,
-                        --debugPoly=true,
                         minZ = 75.75,
                         maxZ = 78.15
                     }
@@ -1374,7 +1352,6 @@ HouseRobberyInteriors = {
                     width = 2.4,
                     options = {
                         heading = 111,
-                        --debugPoly=true,
                         minZ = 75.74,
                         maxZ = 78.14
                     }
@@ -1386,7 +1363,6 @@ HouseRobberyInteriors = {
                     width = 1.4,
                     options = {
                         heading = 20,
-                        --debugPoly=true,
                         minZ = 71.48,
                         maxZ = 73.28
                     }
@@ -1398,7 +1374,6 @@ HouseRobberyInteriors = {
                     width = 2.0,
                     options = {
                         heading = 21,
-                        --debugPoly=true,
                         minZ = 75.74,
                         maxZ = 78.54
                     }
@@ -1410,7 +1385,6 @@ HouseRobberyInteriors = {
                     width = 2.0,
                     options = {
                         heading = 20,
-                        --debugPoly=true,
                         minZ = 71.15,
                         maxZ = 75.15
                     }
@@ -1481,7 +1455,6 @@ HouseRobberyInteriors = {
                     width = 1.2,
                     options = {
                         heading = 355,
-                        --debugPoly=true,
                         minZ = 145.5,
                         maxZ = 146.7
                     }
@@ -1493,7 +1466,6 @@ HouseRobberyInteriors = {
                     width = 1.0,
                     options = {
                         heading = 345,
-                        --debugPoly=true,
                         minZ = 144.5,
                         maxZ = 146.9
                     }
@@ -1505,7 +1477,6 @@ HouseRobberyInteriors = {
                     width = 1.0,
                     options = {
                         heading = 75,
-                        --debugPoly=true,
                         minZ = 140.91,
                         maxZ = 143.51
                     }
@@ -1517,7 +1488,6 @@ HouseRobberyInteriors = {
                     width = 2.0,
                     options = {
                         heading = 345,
-                        --debugPoly=true,
                         minZ = 137.3,
                         maxZ = 139.9
                     }
@@ -1529,7 +1499,6 @@ HouseRobberyInteriors = {
                     width = 1.0,
                     options = {
                         heading = 345,
-                        --debugPoly=true,
                         minZ = 137.3,
                         maxZ = 138.7
                     }
@@ -1541,7 +1510,6 @@ HouseRobberyInteriors = {
                     width = 1.0,
                     options = {
                         heading = 345,
-                        --debugPoly=true,
                         minZ = 141.1,
                         maxZ = 142.7
                     }
@@ -1553,7 +1521,6 @@ HouseRobberyInteriors = {
                     width = 1.0,
                     options = {
                         heading = 345,
-                        --debugPoly=true,
                         minZ = 141.1,
                         maxZ = 144.1
                     }
@@ -1565,7 +1532,6 @@ HouseRobberyInteriors = {
                     width = 1.0,
                     options = {
                         heading = 345,
-                        --debugPoly=true,
                         minZ = 139.3,
                         maxZ = 142.3
                     }
@@ -1577,7 +1543,6 @@ HouseRobberyInteriors = {
                     width = 1.0,
                     options = {
                         heading = 345,
-                        --debugPoly=true,
                         minZ = 144.7,
                         maxZ = 147.1
                     }
@@ -1589,7 +1554,6 @@ HouseRobberyInteriors = {
                     width = 1.0,
                     options = {
                         heading = 345,
-                        --debugPoly=true,
                         minZ = 137.3,
                         maxZ = 140.1
                     }
@@ -1660,7 +1624,6 @@ HouseRobberyInteriors = {
                     width = 1.0,
                     options = {
                         heading = 332,
-                        --debugPoly=true,
                         minZ = 174.03,
                         maxZ = 176.03
                     }
@@ -1672,7 +1635,6 @@ HouseRobberyInteriors = {
                     width = 3.4,
                     options = {
                         heading = 330,
-                        --debugPoly=true,
                         minZ = 173.63,
                         maxZ = 176.83
                     }
@@ -1684,7 +1646,6 @@ HouseRobberyInteriors = {
                     width = 5.0,
                     options = {
                         heading = 114,
-                        --debugPoly=true,
                         minZ = 169.63,
                         maxZ = 171.23
                     }
@@ -1696,7 +1657,6 @@ HouseRobberyInteriors = {
                     width = 2.8,
                     options = {
                         heading = 295,
-                        --debugPoly=true,
                         minZ = 173.27,
                         maxZ = 176.87
                     }
@@ -1708,7 +1668,6 @@ HouseRobberyInteriors = {
                     width = 2.8,
                     options = {
                         heading = 205,
-                        --debugPoly=true,
                         minZ = 169.62,
                         maxZ = 173.22
                     }
@@ -1720,7 +1679,6 @@ HouseRobberyInteriors = {
                     width = 2.8,
                     options = {
                         heading = 188,
-                        --debugPoly=true,
                         minZ = 169.62,
                         maxZ = 173.22
                     }
@@ -1732,7 +1690,6 @@ HouseRobberyInteriors = {
                     width = 2.8,
                     options = {
                         heading = 150,
-                        --debugPoly=true,
                         minZ = 174.34,
                         maxZ = 177.94
                     }
@@ -1744,7 +1701,6 @@ HouseRobberyInteriors = {
                     width = 3.2,
                     options = {
                         heading = 195,
-                        --debugPoly=true,
                         minZ = 174.0,
                         maxZ = 175.6
                     }
@@ -1756,7 +1712,6 @@ HouseRobberyInteriors = {
                     width = 3.2,
                     options = {
                         heading = 204,
-                        --debugPoly=true,
                         minZ = 174.34,
                         maxZ = 175.94
                     }
