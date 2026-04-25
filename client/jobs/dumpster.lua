@@ -23,34 +23,34 @@ local _DumpsterEntities = {
 		objectID = 364445978,
 		description = "Big Green Skip Bin",
 	},
-	-- {
-	-- 	objectID = 143369,
-	-- 	description = "Small Bin",
-	-- },
-	-- {
-	-- 	objectID = -329415894,
-	-- 	description = "Small Trash Can",
-	-- },
-	-- {
-	-- 	objectID = 1614656839,
-	-- 	description = "Small Trash Can",
-	-- },
-	-- {
-	-- 	objectID = 1437508529,
-	-- 	description = "Small Trash Can",
-	-- },
-	-- {
-	-- 	objectID = -1096777189,
-	-- 	description = "Small Trash Can",
-	-- },
-	-- {
-	-- 	objectID = -228596739,
-	-- 	description = "Small Trash Can",
-	-- },
-	-- {
-	-- 	objectID = 1329570871,
-	-- 	description = "Small Trash Can",
-	-- },
+	{
+		objectID = 143369,
+		description = "Small Bin",
+	},
+	{
+		objectID = -329415894,
+		description = "Small Trash Can",
+	},
+	{
+		objectID = 1614656839,
+		description = "Small Trash Can",
+	},
+	{
+		objectID = 1437508529,
+		description = "Small Trash Can",
+	},
+	{
+		objectID = -1096777189,
+		description = "Small Trash Can",
+	},
+	{
+		objectID = -228596739,
+		description = "Small Trash Can",
+	},
+	{
+		objectID = 1329570871,
+		description = "Small Trash Can",
+	},
 }
 
 local _searching = false
