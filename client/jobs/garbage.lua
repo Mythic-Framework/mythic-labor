@@ -352,4 +352,5 @@ RegisterNetEvent("Garbage:Client:OffDuty", function(time)
 	GarbageObject = nil
 	_state = 0
 	LocalPlayer.state.inGarbagbeZone = false
+	TriggerEvent("Labor:Dumpster:RegisterDumpsters")
 end)
