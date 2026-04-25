@@ -944,34 +944,32 @@ HouseRobberyProperties = {
 
 HouseRobberyInteriors = {
     [1] = {
-        x = 942.369,
-        y = -652.403,
-        z = 58.437,
-        h = 86.432,
-        exit = vector3(942.601, -652.562, 58.439),
+        x = 265.99,
+        y = -1007.61,
+        z = -101.01,
+        h = 358.48,
+        exit = vector3(266.09, -1007.87, -100.85),
         zone = {
-            center = vector3(941.6, -654.78, 62.58),
-            length = 15.4,
-            width = 15.8,
+            center = vector3(261.17, -1001.52, -98.34),
+            length = 13.0,
+            width = 13.4,
             options = {
-                heading = 40,
-                --debugPoly=true,
-                minZ = 55.38,
-                maxZ = 60.78
+                heading = 358,
+                minZ = -103.01,
+                maxZ = -95.72
             }
         },
         locations = {
             exit = {
-                x = 942.97,
-                y = -652.88,
-                z = 58.56,
+                x = 266.04,
+                y = -1007.61,
+                z = -101.01,
                 l = 1.4,
                 w = 0.4,
                 extras = {
-                    heading = 310,
-                    --debugPoly=true,
-                    minZ = 57.41,
-                    maxZ = 59.81
+                    heading = 358,
+                    minZ = -102.01,
+                    maxZ = -100.01
                 }
             },
         },
@@ -982,242 +980,196 @@ HouseRobberyInteriors = {
             },
             pois = {
                 alarm = {
-                    coords = vector3(942.285645, -653.414734, 58.722286),
-                    heading = 219.0,
+                    coords = vector3(264.120728, -1002.739807, -98.722740),
+                    heading = 90.0,
                     object = `v_res_tre_alarmbox`,
                 },
                 owner = {
-                    coords = vector3(938.000, -651.495, 58.437),
-                    heading = 135.621,
+                    coords = vector3(261.78, -1002.81, -100.01),
+                    heading = 87.16,
                 }
             },
             locations = {
-                { -- Front Door Table
-                    type = "standard",
-                    coords = vector3(941.72, -653.52, 58.44),
-                    length = 1.4,
-                    width = 0.6,
-                    options = {
-                        heading = 310,
-                        minZ = 57.64,
-                        maxZ = 58.64
-                    }
-                },
-                {
-                    type = "microwave",
-                    coords = vector3(943.16, -649.76, 58.46),
-                    length = 1.0,
-                    width = 0.4,
-                    options = {
-                        heading = 310,
-                        minZ = 58.06,
-                        maxZ = 58.86
-                    }
-                },
-                { -- Next to TV
-                    type = "standard",
-                    coords = vector3(941.95, -650.41, 58.44),
-                    length = 1.0,
-                    width = 1.4,
-                    options = {
-                        heading = 40,
-                        minZ = 57.44,
-                        maxZ = 59.84
-                    }
-                },
-                {
-                    type = "tv",
-                    coords = vector3(940.62, -651.81, 58.44),
-                    length = 0.8,
-                    width = 2.0,
-                    options = {
-                        heading = 40,
-                        minZ = 57.64,
-                        maxZ = 58.84
-                    }
-                },
-                {
-                    type = "pc",
-                    coords = vector3(939.35, -658.07, 58.44),
-                    length = 2.6,
-                    width = 2.0,
-                    options = {
-                        heading = 310,
-                        minZ = 57.64,
-                        maxZ = 59.24
-                    }
-                },
-                { -- Bedroom
-                    type = "standard",
-                    coords = vector3(934.63, -656.81, 58.44),
-                    length = 0.6,
-                    width = 1.2,
-                    options = {
-                        heading = 310,
-                        minZ = 57.64,
-                        maxZ = 59.84
-                    }
-                },
-                {
-                    type = "medicine",
-                    coords = vector3(942.58, -654.73, 58.44),
-                    length = 0.8,
-                    width = 1.0,
-                    options = {
-                        heading = 310,
-                        minZ = 57.44,
-                        maxZ = 58.44
-                    }
-                },
+            {
+                type = "boombox",
+                coords = vector3(263.38, -994.76, -99.03),
+                length = 0.6,
+                width = 0.2,
+                options = {
+                    heading = 21.76,
+                    minZ = -100.03,
+                    maxZ = -98.03
+                }
+            },
+            {
+                type = "standard",
+                coords = vector3(266.24, -999.40, -99.09),
+                length = 1.4,
+                width = 0.4,
+                options = {
+                    heading = 269.28,
+                    minZ = -100.09,
+                    maxZ = -98.09
+                }
+            },
+            {
+                type = "standard",
+                coords = vector3(259.75, -1004.40, -99.05),
+                length = 1.4,
+                width = 0.6,
+                options = {
+                    heading = 179.93,
+                    minZ = -100.05,
+                    maxZ = -98.05
+                }
+            },
+            {
+                type = "tv",
+                coords = vector3(262.68, -1001.88, -99.34),
+                length = 0.9,
+                width = 0.4,
+                options = {
+                    heading = 359.29,
+                    minZ = -100.34,
+                    maxZ = -98.34
+                }
+            },
+            {
+                type = "tv",
+                coords = vector3(256.80, -995.54, -99.16),
+                length = 0.9,
+                width = 0.3,
+                options = {
+                    heading = 43.09,
+                    minZ = -100.16,
+                    maxZ = -98.16
+                }
+            },
+            {
+                type = "medicine",
+                coords = vector3(256.87, -1001.41, -99.23),
+                length = 0.5,
+                width = 0.2,
+                options = {
+                    heading = 219.80,
+                    minZ = -100.23,
+                    maxZ = -98.23
+                }
+            },
             }
         },
     },
     [2] = {
-        x = 978.247,
-        y = -717.089,
-        z = 58.221,
-        h = 134.118,
-        exit = vector3(978.418, -716.940, 58.221),
+        x = 346.47,
+        y = -1012.95,
+        z = -99.20,
+        h = 358.95,
+        exit = vector3(346.51, -1013.50, -99.11),
         zone = {
-            center = vector3(979.89, -721.81, 66.92),
-            length = 15.0,
-            width = 20.8,
+            center = vector3(347.06, -1004.12, -97.68),
+            length = 17.8,
+            width = 22.8,
             options = {
-                heading = 42,
-                --debugPoly=true,
-                minZ = 55.32,
-                maxZ = 62.52
+                heading = 359,
+                minZ = -101.20,
+                maxZ = -96.21
             }
         },
         locations = {
             exit = {
-                x = 978.8,
-                y = -716.6,
-                z = 58.22,
-                l = 1.2,
+                x = 346.47,
+                y = -1013.11,
+                z = -99.20,
+                l = 1.4,
                 w = 0.4,
                 extras = {
-                    heading = 221,
-                    --debugPoly=true,
-                    minZ = 57.07,
-                    maxZ = 59.67
+                    heading = 0,
+                    minZ = -100.20,
+                    maxZ = -98.20
                 }
             },
         },
         robberies = {
             effects = {
-                alarm = 40,
-                owner = 80,
+                alarm = 0,
+                owner = 90,
             },
             pois = {
                 alarm = {
-                    coords = vector3(978.857, -718.4066, 58.5406),
-                    heading = 221.0,
+                    coords = vector3(351.055389, -1007.484497, -98.782188),
+                    heading = 270.0,
                     object = `v_res_tre_alarmbox`,
                 },
                 owner = {
-                    coords = vector3(974.070, -727.563, 58.021),
-                    heading = 335.774,
+                    coords = vector3(343.21, -1001.36, -100.20),
+                    heading = 338.62,
                 }
             },
             locations = {
-                { -- Living Room Drawers
-                    type = "standard",
-                    coords = vector3(974.02, -722.49, 58.02),
-                    length = 1.0,
-                    width = 0.6,
-                    options = {
-                        heading = 310,
-                        minZ = 57.02,
-                        maxZ = 59.82
-                    }
-                },
-                { -- Bedroom 2
-                    type = "standard",
-                    coords = vector3(985.49, -720.25, 58.04),
-                    length = 1.8,
-                    width = 0.8,
-                    options = {
-                        heading = 222,
-                        minZ = 57.04,
-                        maxZ = 58.44
-                    }
-                },
-                { -- Hallway Area
-                    type = "standard",
-                    coords = vector3(980.03, -718.84, 58.02),
-                    length = 2.8,
-                    width = 0.8,
-                    options = {
-                        heading = 132,
-                        minZ = 57.02,
-                        maxZ = 59.62
-                    }
-                },
                 {
                     type = "microwave",
-                    coords = vector3(979.7, -723.03, 58.03),
-                    length = 1.0,
-                    width = 1.0,
+                    coords = vector3(344.70, -1002.06, -99.20),
+                    length = 0.5,
+                    width = 0.4,
                     options = {
-                        heading = 310,
-                        minZ = 57.83,
-                        maxZ = 58.63
-                    }
-                },
-                {
-                    type = "pc",
-                    coords = vector3(983.92, -720.2, 58.02),
-                    length = 1.6,
-                    width = 1.0,
-                    options = {
-                        heading = 42,
-                        minZ = 57.02,
-                        maxZ = 58.62
-                    }
-                },
-                {
-                    type = "tv",
-                    coords = vector3(981.95, -723.75, 58.02),
-                    length = 0.8,
-                    width = 1.2,
-                    options = {
-                        heading = 312,
-                        minZ = 57.02,
-                        maxZ = 58.42
-                    }
-                },
-                {
-                    type = "tv",
-                    coords = vector3(976.65, -725.01, 58.02),
-                    length = 0.8,
-                    width = 1.2,
-                    options = {
-                        heading = 312,
-                        minZ = 57.02,
-                        maxZ = 58.62
-                    }
-                },
-                {
-                    type = "golfclubs",
-                    coords = vector3(975.38, -717.9, 58.02),
-                    length = 0.6,
-                    width = 1.0,
-                    options = {
-                        heading = 312,
-                        minZ = 57.02,
-                        maxZ = 58.62
+                        heading = 275.52,
+                        minZ = -100.20,
+                        maxZ = -98.20
                     }
                 },
                 {
                     type = "medicine",
-                    coords = vector3(986.02, -715.64, 58.06),
-                    length = 1.0,
-                    width = 1.0,
+                    coords = vector3(339.32, -1003.72, -99.81),
+                    length = 0.4,
+                    width = 0.3,
                     options = {
-                        heading = 312,
-                        minZ = 57.06,
-                        maxZ = 58.46
+                        heading = 180.76,
+                        minZ = -100.81,
+                        maxZ = -98.81
+                    }
+                },
+                {
+                    type = "medicine",
+                    coords = vector3(340.88, -1003.90, -99.32),
+                    length = 0.8,
+                    width = 0.4,
+                    options = {
+                        heading = 179.67,
+                        minZ = -100.32,
+                        maxZ = -98.32
+                    }
+                },
+                {
+                    type = "big_tv",
+                    coords = vector3(337.86, -996.73, -99.30),
+                    length = 2.0,
+                    width = 0.4,
+                    options = {
+                        heading = 90.32,
+                        minZ = -100.30,
+                        maxZ = -98.30
+                    }
+                },
+                {
+                    type = "medicine",
+                    coords = vector3(351.30, -999.56, -99.59),
+                    length = 1.3,
+                    width = 0.4,
+                    options = {
+                        heading = 180.42,
+                        minZ = -100.59,
+                        maxZ = -98.59
+                    }
+                },
+                {
+                    type = "standard",
+                    coords = vector3(352.61, -998.75, -99.64),
+                    length = 1.0,
+                    width = 0.6,
+                    options = {
+                        heading = 269.38,
+                        minZ = -100.64,
+                        maxZ = -98.64
                     }
                 },
             }
@@ -1242,7 +1194,6 @@ HouseRobberyInteriors = {
             width = 25.4,
             options = {
                 heading = 22,
-                --debugPoly=true,
                 minZ = 69.76,
                 maxZ = 83.56
             }
@@ -1256,7 +1207,6 @@ HouseRobberyInteriors = {
                 w = 2.4,
                 extras = {
                     heading = 291,
-                    --debugPoly=true,
                     minZ = 71.15,
                     maxZ = 74.15
                 }
@@ -1411,7 +1361,6 @@ HouseRobberyInteriors = {
             width = 47.2,
             options = {
                 heading = 90,
-                --debugPoly=true,
                 minZ = 135.121,
                 maxZ = 155.82
             }
@@ -1425,7 +1374,6 @@ HouseRobberyInteriors = {
                 w = 1.6,
                 extras = {
                     heading = 346,
-                    --debugPoly=true,
                     minZ = 144.91,
                     maxZ = 147.51
                 },
@@ -1580,7 +1528,6 @@ HouseRobberyInteriors = {
             width = 47.2,
             options = {
                 heading = 25,
-                --debugPoly=true,
                 minZ = 162.22,
                 maxZ = 180.82
             }
@@ -1594,7 +1541,6 @@ HouseRobberyInteriors = {
                 w = 2.0,
                 extras = {
                     heading = 330,
-                    --debugPoly=true,
                     minZ = 175.03,
                     maxZ = 178.03
                 },
